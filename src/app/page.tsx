@@ -85,11 +85,11 @@ export default function Home() {
                 <div className="flex items-center justify-center p-6">
                   <MonitorCheck size={64} className="pr-4" />
                   <div>
-                    <span className="text-3xl font-semibold">My Projects</span>
+                    <span className="text-3xl font-semibold">Bakery</span>
                     <p>As a coder since 2018, view some of the projects I have made or contributed to as part of my career.</p>
                     <div className="flex justify-center mt-4">
-                      <Link href="/projects">
-                        <Button className="text-3xl font-bold invert-text p-8">View Projects</Button>
+                      <Link href="/bakery">
+                        <Button className="text-3xl font-bold invert-text p-8">Bakery</Button>
                       </Link>
                     </div>
                   </div>

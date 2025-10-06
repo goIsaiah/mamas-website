@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { projects } from "./projects";
+import { bakery } from "./bakery";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
@@ -18,7 +18,7 @@ export default function Home() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
-    <section id="projects" className="py-16">
+    <section id="bakery" className="py-16">
       <h2 className="text-4x1 font-bold text-center">Projects</h2>
       <motion.div
         initial="hidden"
@@ -26,7 +26,7 @@ export default function Home() {
         variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.2 } }, }}
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 px-4 mt-8"
       >
-        {projects.map((project,idx) => (
+        {bakery.map((bakery,idx) => (
           <motion.div
             key={idx}
             variants={{ hidden: { opacity: 0, y: 50 }, visible: { opacity: 1, y: 0 }, }} transition={{ duration: 0.6 }} whileHover={{ y: -10, scale: 1.03 }}
@@ -34,16 +34,16 @@ export default function Home() {
             <Card className="w-full flex flex-col items-center text-center">
               <CardHeader>
                 <CardTitle className="text-xl font-bold">
-                  {project.title}
+                  {bakery.title}
                 </CardTitle>
                 <div className="mt-4">
-                  <img src={project.image} alt={`${project.title} Screenshot`} className="w-full h-auto rounded-lg shadow-lg cursor-pointer" onClick={() => setSelectedImage(project.image)} />
+                  <img src={bakery.image} alt={`${bakery.title} Screenshot`} className="w-full h-auto rounded-lg shadow-lg cursor-pointer" onClick={() => setSelectedImage(bakery.image)} />
                 </div>
               </CardHeader>
               <CardContent className="px-6 pb-6">
-                <p className="text-gray-700">{project.description}</p>
+                <p className="text-gray-700">{bakery.description}</p>
                 <div className="mt-4 flex flex-wrap justify-center gap-4">
-                  {project.links.map((link, linkIdx) => ( <Link key={linkIdx} href={link.href}> <Button className="mt-2">{link.label}</Button> </Link> ))}
+                  {bakery.links.map((link, linkIdx) => ( <Link key={linkIdx} href={link.href}> <Button className="mt-2">{link.label}</Button> </Link> ))}
                 </div>
               </CardContent>
             </Card>

@@ -1,11 +1,11 @@
-export type Project = {
+export type Bakery = {
     title: string;
     description: string;
     image: string;
     links: { label: string; href: string} [];
 };
 
-export const projects: Project[] = [
+export const bakery: Bakery[] = [
     {
         title: "Tracked",
         description: "A web-based project management site I created in a team of six for EECS 4314.  A fully functional website that allows users to create accounts, projects, tasks, and join projects created by other users.  Users can also assign tasks to each other, as well as see the deadlines of all their upcoming tasks for efficient project management.",

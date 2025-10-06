@@ -23,8 +23,8 @@ export default function Navbar() {
               <Link href="/">
                 <Button>Home</Button>
               </Link>
-              <Link className="ml-4" href="projects">
-                <Button>Projects</Button>
+              <Link className="ml-4" href="bakery">
+                <Button>Bakery</Button>
               </Link>
               <Link className="ml-4" href="hobbies">
                 <Button>Hobbies</Button>
