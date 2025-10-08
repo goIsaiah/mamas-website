@@ -26,11 +26,8 @@ export default function Navbar() {
               <Link className="ml-4" href="bakery">
                 <Button>Bakery</Button>
               </Link>
-              <Link className="ml-4" href="hobbies">
-                <Button>Hobbies</Button>
-              </Link>
-              <Link className="ml-4" href="contact">
-                <Button>Contact</Button>
+              <Link className="ml-4" href="crafts">
+                <Button>Crafts</Button>
               </Link>
             </>
       </div>
