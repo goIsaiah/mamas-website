@@ -42,9 +42,6 @@ export default function Home() {
               </CardHeader>
               <CardContent className="px-6 pb-6">
                 <p className="text-gray-700">{bakery.description}</p>
-                <div className="mt-4 flex flex-wrap justify-center gap-4">
-                  {bakery.links.map((link, linkIdx) => ( <Link key={linkIdx} href={link.href}> <Button className="mt-2">{link.label}</Button> </Link> ))}
-                </div>
               </CardContent>
             </Card>
           </motion.div>
