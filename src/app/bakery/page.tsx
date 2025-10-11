@@ -19,12 +19,12 @@ export default function Home() {
 
   return (
     <section id="bakery" className="py-16">
-      <h2 className="text-4x1 font-bold text-center">Projects</h2>
+      <h2 className="text-4x1 font-bold text-center">Bakery</h2>
       <motion.div
         initial="hidden"
         animate="visible"
         variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.2 } }, }}
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 px-4 mt-8"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 px-4 mt-8"
       >
         {bakery.map((bakery,idx) => (
           <motion.div
