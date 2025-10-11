@@ -24,7 +24,7 @@ export default function Home() {
         initial="hidden"
         animate="visible"
         variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.2 } }, }}
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 px-4 mt-8"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 px-4 mt-8"
       >
         {crafts.map((crafts,idx) => (
           <motion.div
@@ -42,9 +42,6 @@ export default function Home() {
               </CardHeader>
               <CardContent className="px-6 pb-6">
                 <p className="text-gray-700">{crafts.description}</p>
-                <div className="mt-4 flex flex-wrap justify-center gap-4">
-                  {crafts.links.map((link, linkIdx) => ( <Link key={linkIdx} href={link.href}> <Button className="mt-2">{link.label}</Button> </Link> ))}
-                </div>
               </CardContent>
             </Card>
           </motion.div>
