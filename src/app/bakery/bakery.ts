@@ -80,4 +80,79 @@ export const bakery: Bakery[] = [
         description: "7” chocolate cake with pistachio frosting",
         image: "images/bakery/7” chocolate cake with pistachio frosting.jpg",
     },
+    {
+        title: "Cinnamon Rolls",
+        description: "Cinnamon rolls",
+        image: "images/bakery/Cinnamon rolls.jpg",
+    },
+    {
+        title: "2 Layer Coconut Cake",
+        description: "2 layer 6” coconut cake",
+        image: "images/bakery/2 layer 6” coconut cake.jpg",
+    },
+    {
+        title: "Double Layer Chocolate Cake with Mocha Cream Frosting",
+        description: "7” double layer chocolate cake with mocha cream frosting",
+        image: "images/bakery/7” double layer chocolate cake with mocha cream frosting.jpg",
+    },
+    {
+        title: "German Peach Kuchen",
+        description: "9” German peach kuchen",
+        image: "images/bakery/9” German peach kuchen.jpg",
+    },
+    {
+        title: "Triple Layer Coconut Cake with Strawberry Cream Cheese & Whipped Cream Frosting",
+        description: "Triple layer 7” coconut cake with strawberry cream cheese & whipped cream frosting",
+        image: "images/bakery/Triple layer 7” coconut cake with strawberry cream cheese & whipped cream frosting.jpg",
+    },
+    {
+        title: "Peach Frangipane Tart",
+        description: "9” peach frangipane tart",
+        image: "images/bakery/9” peach frangipane tart.jpg",
+    },
+    {
+        title: "Double Layer Strawberry Shortcake",
+        description: "7” double layer strawberry shortcake",
+        image: "images/bakery/7” double layer strawberry shortcake.jpg",
+    },
+    {
+        title: "Double Layer Mango Sponge Cake with Mango Jam and Mango Whipped Cream & Cream Cheese Frosting",
+        description: "7” double layer eggless whole wheat mango sponge cake with mango jam and mango whipped cream & cream cheese frosting 🧁 (2” tall)",
+        image: "images/bakery/7” double layer eggless whole wheat mango sponge cake with mango jam and mango whipped cream & cream cheese frosting.jpg",
+    },
+    {
+        title: "Single Layer Chocolate Cake with Pistachio Whipped Cream Frosting",
+        description: "7” single layer chocolate cake with pistachio whipped cream frosting.  Decorated with large crown frosting tip; 1 c hwc",
+        image: "images/bakery/7” single layer chocolate cake with pistachio whipped cream frosting.  Decorated with large crown frosting tip; 1 c hwc.jpg",
+    },
+    {
+        title: "Single Layer Carrot Cake with Cream Cheese Frosting and Walnuts",
+        description: "8” single layer carrot cake with cream cheese frosting and walnuts on top (< 1 batch cream cheese frosting)",
+        image: "images/bakery/8” single layer carrot cake with cream cheese frosting and walnuts on top.jpg",
+    },
+    {
+        title: "Chocolate Buns",
+        description: "Chocolate buns",
+        image: "images/bakery/Chocolate buns.jpg",
+    },
+    {
+        title: "Nectarine Cream Pie with Crisco Pie Crust",
+        description: "9” nectarine cream pie with crisco pie crust (no sugar)",
+        image: "images/bakery/9” nectarine cream pie with crisco pie crust (no sugar).jpg",
+    },
+    {
+        title: "Chocolate Chip Walnut Cake Topped with Marzipan Disc and Walnuts",
+        description: "6” chocolate chip walnut cake topped with marzipan disc and walnuts (>2” tall)",
+        image: "images/bakery/6” chocolate chip walnut cake topped with marzipan disc and walnuts.jpg",
+    },
+    {
+        title: "Two Torta Nua (Italian cake with custard)",
+        description: "8” and 6” Torta Nua (Italian  cake with custard), 3” tall.",
+        image: "images/bakery/8” and 6” Torta Nua Italian cake with custard, 3” tall..jpg",
+    },
+    {
+        title: "Torta Nua with Icing Sugar",
+        description: "6” Torta Nua with icing sugar",
+        image: "images/bakery/6” Torta Nua with icing sugar.jpg",
+    },
 ];
