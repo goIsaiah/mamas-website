@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <section id="crafts" className="py-16">
-      <h2 className="text-4x1 font-bold text-center">Projects</h2>
+      <h2 className="text-4x1 font-bold text-center">Crafts</h2>
       <motion.div
         initial="hidden"
         animate="visible"
