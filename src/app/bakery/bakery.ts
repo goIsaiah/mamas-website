@@ -75,4 +75,9 @@ export const bakery: Bakery[] = [
         description: "8” blueberry yogurt cake with green frosting",
         image: "images/bakery/8” blueberry yogurt cake.jpg",
     },
+    {
+        title: "Chocolate Cake with Pistachio Frosting",
+        description: "7” chocolate cake with pistachio frosting",
+        image: "images/bakery/7” chocolate cake with pistachio frosting.jpg",
+    },
 ];
