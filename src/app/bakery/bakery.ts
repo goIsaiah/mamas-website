@@ -70,4 +70,9 @@ export const bakery: Bakery[] = [
         description: "9\" pear frangipane tart (pear bourdeloue tart)",
         image: "/images/bakery/pear frangipane tart.jpg",
     },
+    {
+        title: "Blueberry Green Frosting Yogurt Cake",
+        description: "8” blueberry yogurt cake with green frosting",
+        image: "images/bakery/8” blueberry yogurt cake.jpg",
+    },
 ];
