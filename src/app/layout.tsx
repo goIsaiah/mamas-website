@@ -26,8 +26,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Isaiah Gocool",
-  description: "Isaiah Gocool's personal portfolio website.",
+  title: "Mama's Website",
+  description: "Bakery and crafts for mama's 56th birthday.",
 };
 
 export default function RootLayout({
