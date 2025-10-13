@@ -167,12 +167,12 @@ export const bakery: Bakery[] = [
     },
     {
         title: "Double Layer Hershey’s Chocolate Cake with Pistachio Whipped Cream Frosting",
-        description: "8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting top",
+        description: "8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting top view",
         image: "images/bakery/8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting top.jpg",
     },
     {
         title: "Double Layer Hershey’s Chocolate Cake with Pistachio Whipped Cream Frosting",
-        description: "8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting side",
+        description: "8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting side view",
         image: "images/bakery/8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting side.jpg",
     },
 ];
