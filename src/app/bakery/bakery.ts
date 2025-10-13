@@ -71,8 +71,8 @@ export const bakery: Bakery[] = [
         image: "/images/bakery/pear frangipane tart.jpg",
     },
     {
-        title: "Blueberry Green Frosting Yogurt Cake",
-        description: "8” blueberry yogurt cake with green frosting",
+        title: "Blueberry Yogurt Cake with Blue Coloured Frosting",
+        description: "8” blueberry yogurt cake with blue coloured frosting",
         image: "images/bakery/8” blueberry yogurt cake.jpg",
     },
     {
@@ -136,8 +136,8 @@ export const bakery: Bakery[] = [
         image: "images/bakery/Chocolate buns.jpg",
     },
     {
-        title: "Nectarine Cream Pie with Crisco Pie Crust",
-        description: "9” nectarine cream pie with crisco pie crust (no sugar)",
+        title: "Nectarine Cream Pie",
+        description: "9” nectarine cream pie (no sugar)",
         image: "images/bakery/9” nectarine cream pie with crisco pie crust (no sugar).jpg",
     },
     {
@@ -154,5 +154,25 @@ export const bakery: Bakery[] = [
         title: "Torta Nua with Icing Sugar",
         description: "6” Torta Nua with icing sugar",
         image: "images/bakery/6” Torta Nua with icing sugar.jpg",
+    },
+    {
+        title: "Pineapple Upside Down Coconut Cake",
+        description: "9” pineapple upside down coconut cake top",
+        image: "images/bakery/9” pineapple upside down coconut cake top.jpg",
+    },
+    {
+        title: "Pineapple Upside Down Coconut Cake",
+        description: "9” pineapple upside down coconut cake side",
+        image: "images/bakery/9” pineapple upside down coconut cake side.jpg",
+    },
+    {
+        title: "Double Layer Hershey’s Chocolate Cake with Pistachio Whipped Cream Frosting",
+        description: "8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting top",
+        image: "images/bakery/8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting top.jpg",
+    },
+    {
+        title: "Double Layer Hershey’s Chocolate Cake with Pistachio Whipped Cream Frosting",
+        description: "8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting side",
+        image: "images/bakery/8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting side.jpg",
     },
 ];
