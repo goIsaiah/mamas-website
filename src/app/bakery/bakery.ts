@@ -17,7 +17,7 @@ export const bakery: Bakery[] = [
     },
     {
         title: "Pineapple Coconut Upside Down Cake",
-        description: "Pineapple coconut upside down cake with the oval Corelle casserole dish",
+        description: "Pineapple coconut upside down cake",
         image: "/images/bakery/pineapple upside down.jpg",
     },
     {
