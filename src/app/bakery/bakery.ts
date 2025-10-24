@@ -175,4 +175,14 @@ export const bakery: Bakery[] = [
         description: "8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting side view",
         image: "images/bakery/8” double layer Hershey’s chocolate cake with pistachio whipped cream frosting side.jpg",
     },
+    {
+        title: "8” Single Layer Lemon Cake 1",
+        description: "8” single layer lemon cake",
+        image: "images/bakery/single layer lemon cake 1.jpg",
+    },
+    {
+        title: "8” Single Layer Lemon Cake 2",
+        description: "8” single layer lemon cake",
+        image: "images/bakery/single layer lemon cake 2.jpg",
+    },
 ];
