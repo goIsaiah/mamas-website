@@ -185,4 +185,24 @@ export const bakery: Bakery[] = [
         description: "8” single layer lemon cake",
         image: "images/bakery/single layer lemon cake 2.jpg",
     },
+    {
+        title: "4 Layer Black Forest Cake",
+        description: "Angie’s 56th birthday 4 layer Black Forest cake baked by Peggy",
+        image: "images/bakery/black forest cake.jpg",
+    },
+    {
+        title: "6” Italian Walnut Cake 1",
+        description: "6” italian walnut cake topped with marzipan top view",
+        image: "images/bakery/italian walnut cake 1.jpg",
+    },
+    {
+        title: "6” Italian Walnut Cake 2",
+        description: "2” height italian walnut cake topped with marzipan side view",
+        image: "images/bakery/italian walnut cake 2.jpg",
+    },
+    {
+        title: "Mango Cakes",
+        description: "8” and 6” single layer mango cake with mango whipped cream frosting",
+        image: "images/bakery/mango cakes.jpg",
+    },
 ];
